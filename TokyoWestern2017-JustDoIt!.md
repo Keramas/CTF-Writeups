@@ -50,7 +50,7 @@ Okay, back to the actual exploit. What is the address we want to use to jump to?
 
 <img src="https://github.com/Keramas/CTF-Writeups/blob/master/Images/JustDoIt/doit2.png">
 
-Looking at the address right before fopen is called to read the file, we see an address getting pushed onto the stack.
+Looking right before fgets, we see an address getting pushed onto the stack.
 Examining this we get the following:
 
 <img src="https://github.com/Keramas/CTF-Writeups/blob/master/Images/JustDoIt/doit3.png">
