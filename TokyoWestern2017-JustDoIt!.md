@@ -26,7 +26,8 @@ P@SSW0RD looks like it could be promising (or just a troll), but unfortunately t
 <img src="https://github.com/Keramas/CTF-Writeups/blob/master/Images/JustDoIt/doitpwfail.png">
 
 Time for another test to see what the program is doing! Loading it up with strace we can see two things:
-1. the program is reading a file called flag.txt (we will likely need to make use of this...), and 2. when inputting a password an automatic linebreak ('\n') is added to the end. Weird...
+1. The program is reading a file called flag.txt (we will likely need to make use of this...)
+2. When inputting a password an automatic linebreak ('\n') is added to the end. Weird...
 
 <img src="https://github.com/Keramas/CTF-Writeups/blob/master/Images/JustDoIt/stracedoit.png">
 
