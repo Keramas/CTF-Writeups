@@ -54,3 +54,4 @@ After exporting this into a file, we are ready to deliver the payload to our cha
 The program starts printing out a bunch of stuff, but ultimately it terminates giving us our flag!
 
 <img src="https://github.com/Keramas/CTF-Writeups/blob/master/Images/baby0x41414141/flaggedexploit.png">
+(Flag partially omitted per the request of backdoorctf.)
