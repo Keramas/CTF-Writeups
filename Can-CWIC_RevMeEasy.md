@@ -1,10 +1,10 @@
-CTF:
+<b>CTF:</b>
 Can-CWIC CTF
 
-Challenge:
+<b>Challenge:</b>
 Rev Me Easy
 
-Classification:
+<b>Classification:</b>
 Rev
 
 <img src="https://github.com/Keramas/CTF-Writeups/blob/master/Images/Revmeeasy/revmeeasytask.png">
