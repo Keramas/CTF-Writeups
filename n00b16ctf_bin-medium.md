@@ -1,10 +1,10 @@
-CTF:
+<b>CTF:</b>
 n00b16ctf
 
-Challenge:
+<b>Challenge:</b>
 bin-medium
 
-Classification:
+<b>Classification:</b>
 Reversing
 
 <img src="https://github.com/Keramas/CTF-Writeups/blob/master/Images/binmedium/binmed.png">
