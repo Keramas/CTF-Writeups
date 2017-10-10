@@ -18,7 +18,6 @@ Looking at the output from objdump we can see a lot of stuff going on in the mem
 Set a breakpoint in the program right before the first printf() at 0x80485d4 and run the program.
 
 <img src="https://github.com/Keramas/CTF-Writeups/blob/master/Images/binmedium/breakpoint1.png">
-<img src="https://github.com/Keramas/CTF-Writeups/blob/master/Images/binmedium/break2.png">
 
 Once the breakpoint is hit, we have freedom to change where our instruction pointer is set to, so let's point to it directly to the beginning of where our flag is constructed.
 
