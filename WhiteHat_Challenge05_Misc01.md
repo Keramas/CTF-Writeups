@@ -4,7 +4,7 @@ WhiteHat Challenge 05
 <b>Challenge Name:</b>
 Misc01
 
-<b>Category</b>
+<b>Category:</b>
 Misc
 
 <img src="https://github.com/Keramas/CTF-Writeups/blob/master/Images/whitehat_misc01/challengestart.png">
