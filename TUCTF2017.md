@@ -4,6 +4,7 @@ VM CHALLENGES
 Gateway
 <b>Category:</b>
 VM
+
 <img src="https://github.com/Keramas/CTF-Writeups/blob/master/Images/TUCTF2017/gateway_challenge.png">
 
 This CTF provided a VM which encompassed a number of different challenges, the first part of which is
