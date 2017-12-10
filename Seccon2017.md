@@ -1,8 +1,10 @@
 <b>CTF:</b>
 SECCON 2017
 
+
 <b>Challenge:</b>
 Run Me!
+
 <b>Category:</b>
 Programming
 
@@ -24,6 +26,7 @@ So here is the number we need. Looking at the script though we only need the fir
 
 <b>Challenge:</b>
 Putchar Music
+
 <b>Category:</b>
 Programming
 
@@ -42,6 +45,7 @@ SECCON{STAR_WARS}
 
 <b>Challenge:</b>
 JPEG file
+
 <b>Category:</b>
 binary
 
