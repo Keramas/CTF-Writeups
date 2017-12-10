@@ -53,7 +53,7 @@ After playing detective in hexedit, I couldn't find anything wrong with the head
 
 <img src="https://github.com/Keramas/CTF-Writeups/blob/master/Images/seccon2017/jpgbroken.png">
 
-Conducting some tests by changing the 0xFC value I found in hexedit, I confirmed that it was indeed the location it was indicating, and turning this into 0x00 allowed the image to display properly.
+Conducting some tests by changing the 0xFC value I found in hexedit, which is right where all the actual image data begins, I confirmed that it was indeed the location it was indicating, and turning this into 0x00 allowed the image to display properly.
 
 <img src="https://github.com/Keramas/CTF-Writeups/blob/master/Images/seccon2017/fixedjpg.png">
 
