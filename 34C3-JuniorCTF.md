@@ -107,4 +107,29 @@ Simply running strings on the ARM binary will reveal the flag (the other ARM-rel
 <img src="https://github.com/Keramas/CTF-Writeups/blob/master/Images/34C3-CTF/arm1_flag.png">
 
 
+===================================
+
+<b>Challenge</b>:
+ARM2
+
+<b>Category</b>:
+Rev
+
+<img src="https://github.com/Keramas/CTF-Writeups/blob/master/Images/34C3-CTF/arm2challenge.png">
+
+Upgrading the difficulty from the prior ARM challenge, it seems like the flag is encrypted in some way judging by the characters that follow the "The flag is:" string.
+
+<img src="https://github.com/Keramas/CTF-Writeups/blob/master/Images/34C3-CTF/encryptedflag.png">
+
+I used a couple of programs to analyze. I used IDA to grab all the hex values for the encrypted string.
+
+<img src="https://github.com/Keramas/CTF-Writeups/blob/master/Images/34C3-CTF/xoredvalue.png">
+
+And since I couldn't get a good output of the pseudocode for whatever reason, I used Hopper, which gave me the hint that these values were being xor'ed with 0x55.
+
+Using <a href="https://github.com/Keramas/Hexxorscii">a script that I wrote</a> to automate the decryption of these types of challenges (seems like there are often similar ones in CTFs all the time), we are able to get our flag!
+
+<img src="https://github.com/Keramas/CTF-Writeups/blob/master/Images/34C3-CTF/arm2flag.png">
+
+
 
